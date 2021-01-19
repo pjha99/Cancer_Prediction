@@ -1,7 +1,7 @@
 # Project Name
 Cancer Detetction Project: 
 
-## Project Intro/Objective
+### Project Intro/Objective
 Cancer is the name given to a collection of related diseases. In all types of cancer, some of the body’s cells begin to divide without stopping and spread into surrounding tissues.
 
 Cancer can start almost anywhere in the human body, which is made up of trillions of cells. Normally, human cells grow and divide to form new cells as the body needs them. When cells grow old or become damaged, they die, and new cells take their place.
@@ -17,8 +17,8 @@ In this Project, we will build and train a model using human cell records, and c
     - Randomized Search CV
     - Grid Serach CV
 
-## Technologies
-*Python
+### Technologies
+- Python
 
 ### Data Set
 <p> The example is based on a dataset that is publicly available from the UCI Machine Learning Repository (Asuncion and Newman, 2007).[http://mlearn.ics.uci.edu/MLRepository.html]. The dataset consists of several hundred human cell sample records, each of which contains the values of a set of cell characteristics. The fields in each record are: </p>
