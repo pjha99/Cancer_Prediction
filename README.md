@@ -39,6 +39,12 @@ In this Project, we will build and train a model using human cell records, and c
 
 Field BareNuc is a categorical feature, we will be using one hot encoding to convert it into the numerical Value.
 
+## Exploratory Data Analysis
+
+![Image](file:///C:/Users/jhapr/Desktop/Capture_cancer.png)
+
+
+
 ## Shape of Train and Test Data
 
 - Train Data (546, 9) (546,)
