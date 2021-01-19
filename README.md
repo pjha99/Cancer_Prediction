@@ -41,7 +41,7 @@ Field BareNuc is a categorical feature, we will be using one hot encoding to con
 
 ## Exploratory Data Analysis
 
-![Image](file:///C:/Users/jhapr/Desktop/Capture_cancer.png)
+![Image](Images/Capture_cancer.png)
 
 
 
