@@ -19,19 +19,20 @@ In this Project, we will build and train a model using human cell records, and c
 
 ## Project Description
 The example is based on a dataset that is publicly available from the UCI Machine Learning Repository (Asuncion and Newman, 2007)[http://mlearn.ics.uci.edu/MLRepository.html]. The dataset consists of several hundred human cell sample records, each of which contains the values of a set of cell characteristics. The fields in each record are:
-
-Field name	Description
-ID	Clump thickness
-Clump	Clump thickness
-UnifSize	Uniformity of cell size
-UnifShape	Uniformity of cell shape
-MargAdh	Marginal adhesion
-SingEpiSize	Single epithelial cell size
-BareNuc	Bare nuclei
-BlandChrom	Bland chromatin
-NormNucl	Normal nucleoli
-Mit	Mitoses
-Class	Benign or malignant
+----------------------------------------
+|Field name     |	Description <br/>
+----------------------------------------
+|ID	Clump       |thickness <br/>
+|Clump	        |Clump thickness <br/>
+|UnifSize	    |Uniformity of cell size <br/>
+|UnifShape	    |Uniformity of cell shape <br/>
+|MargAdh	    |Marginal adhesion <br/>
+|SingEpiSize	|Single epithelial cell size <br/>
+|BareNuc	    |Bare nuclei <br/>
+|BlandChrom	    |Bland chromatin <br/>
+|NormNucl	    |Normal nucleoli <br/>
+|Mit	        |Mitoses <br/>
+|Class	        |Benign or malignant <br/>
 
 Field BareNuc is a categorical feature, we will be using one hot encoding to convert it into the numerical Value.
 
@@ -52,7 +53,7 @@ Test Data (137, 9) (137,)
 
 
 ## Metrics Used to determine results:
-*Accuracy
-*Precision 
-*Recall
-*F1-Score
+#### Accuracy <br/>
+#### Precision <br/>
+#### Recall <br/>
+#### F1-Score <br/>
