@@ -50,27 +50,27 @@ In this Project, we will build and train a model using human cell records, and c
 3. object oriented code is present in cancerprediction.py
 
 ## Feature Engineering:
-    Field BareNuc is a categorical feature, we will be using one hot encoding to convert it into the numerical Value.
+   Field BareNuc is a categorical feature, we will be using one hot encoding to convert it into the numerical Value.
    
 ## Exploratory Data Analysis :-
 - ### Correlation Matrix: 
-      Here we are trying to see how our data are corelated to each other, if there existst high degree or low degree
+     Here we are trying to see how our data are corelated to each other, if there existst high degree or low degree
       of corelation between the independent variables.
       
 ![](Images/Capture.PNG)
 
 - ### Class Distribution : 
-      Here we are trying to see how the benign vs malignant tumors are distributed , 
+     Here we are trying to see how the benign vs malignant tumors are distributed , 
       we try to see if there is a case of imbalanced dataset.
 
 ![](Images/Capture_cancer.PNG)
 
 
 ## Shape of Train and Test Data :-
-    We performe the train test split of data set means a larger portion of data we keep as training dataset while a smaller portion of test dataset.
-    - Train data set : 80%
-    - Test data set :20%
-    The reason we do train test split is because:
+   We performe the train test split of data set means a larger portion of data we keep as training dataset while a smaller portion of test dataset.
+   - Train data set : 80%
+   - Test data set : 20% <br/>
+   The reason we do train test split is because:
      - To see if we are overfitting the model
      - To see if we are undefitting the model
      - To see if our model performs in a well behaved fashion on both train and test data.
