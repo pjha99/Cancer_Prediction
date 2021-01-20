@@ -8,7 +8,10 @@ Cancer can start almost anywhere in the human body, which is made up of trillion
 
 When cancer develops, however, this orderly process breaks down. As cells become more and more abnormal, old or damaged cells survive when they should die, and new cells form when they are not needed. These extra cells can divide without stopping and may form growths called tumors.
 
+According to Survey there are 18 million cancer cases round the globe anually and around 8.8 million death per year.
+
 In this Project, we will build and train a model using human cell records, and classify cells to whether the samples are benign or malignant. 
+The End goal is to classify whether the Human cells are benign in nature or they are malignant in nature, to detect this in early stage can save life of thousand sof people.
 
 
 ### Algorithms Used :-
