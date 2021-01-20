@@ -54,8 +54,8 @@ In this Project, we will build and train a model using human cell records, and c
    
 ## Exploratory Data Analysis :-
 - ### Correlation Matrix: 
-     Here we are trying to see how our data are corelated to each other, if there existst high degree or low degree
-      of corelation between the independent variables.
+     Here we are trying to see how our data are corelated to each other, if there exists high or low 
+     correlation between the independent variables.
       
 ![](Images/Capture.PNG)
 
