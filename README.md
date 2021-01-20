@@ -11,7 +11,7 @@ When cancer develops, however, this orderly process breaks down. As cells become
 According to Survey there are 18 million cancer cases round the globe anually and around 8.8 million death per year.
 
 In this Project, we will build and train a model using human cell records, and classify cells to whether the samples are benign or malignant. 
-The End goal is to classify whether the Human cells are benign in nature or they are malignant in nature, to detect this in early stage can save life of thousand sof people.
+The End goal is to classify whether the Human cells are benign in nature or they are malignant in nature, to detect this in early stage can save life of thousand of people.
 
 
 ### Algorithms Used :-
