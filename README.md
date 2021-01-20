@@ -43,29 +43,51 @@ In this Project, we will build and train a model using human cell records, and c
 10. Mit	        
 11. Class	        
 
-Field BareNuc is a categorical feature, we will be using one hot encoding to convert it into the numerical Value.
-
-## Exploratory Data Analysis :-
-- ### Correlation Matrix:
-![](Images/Capture.PNG)
-
-- ### Class Distribution
-
-![](Images/Capture_cancer.PNG)
-
-
-
-## Shape of Train and Test Data :-
-
-- Train Data (546, 9) (546,)
-- Test Data (137, 9) (137,)
-
-
 ## Getting Started :-
 
 1. Raw Data is being kept under the project repo with the name drug200.csv    
 2. Data processing/transformation scripts are coded under cancer_prediction.ipynb
 3. object oriented code is present in cancerprediction.py
+
+## Feature Engineering:
+    Field BareNuc is a categorical feature, we will be using one hot encoding to convert it into the numerical Value.
+   
+## Exploratory Data Analysis :-
+- ### Correlation Matrix: 
+      Here we are trying to see how our data are corelated to each other, if there existst high degree or low degree
+      of corelation between the independent variables.
+      
+![](Images/Capture.PNG)
+
+- ### Class Distribution : 
+      Here we are trying to see how the benign vs malignant tumors are distributed , 
+      we try to see if there is a case of imbalanced dataset.
+
+![](Images/Capture_cancer.PNG)
+
+
+## Shape of Train and Test Data :-
+    We performe the train test split of data set means a larger portion of data we keep as training dataset while a smaller portion of test dataset.
+    - Train data set : 80%
+    - Test data set :20%
+    The reason we do train test split is because:
+     - To see if we are overfitting the model
+     - To see if we are undefitting the model
+     - To see if our model performs in a well behaved fashion on both train and test data.
+
+- Train Data (546, 9) (546,)
+- Test Data (137, 9) (137,)
+
+## Hyperparameter Tuning :-
+   In an Ideal scenario a model shouldnot be trained on the default parameter, meaning the parameters of the ML algorithm has to be trained,
+   The reason for hyper parameter tuning is to obtained the best parameters and use that on the ML Algorithm to obtained the best results.
+   We have various hyper parameter tuning techniques, but in this project I have used two widely used tuning techniques.
+    - Randomized Search CV
+    - Grid Search CV
+   The Random Forset algorithm first trains itself using Randomized search CV, as the name suggests it randomly tries to search in the gievn search space
+   and then spits the best params out of those random searched space.
+   Then we apply the Grid Search CV on the trained params of the Randomized search by taking that as baseline, Grid search looks into each grid one by one and then
+   gives the best parameter for the Random Forest algorithm.
 
 
 ## Featured Notebooks/Analysis/Deliverables :-
