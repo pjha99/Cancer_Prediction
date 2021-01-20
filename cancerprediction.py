@@ -90,7 +90,7 @@ class CancerPrediction:
         print('Results after Randomized Search')
         self.metrics(self, best_grid, X_test, y_test)
         print('Now Calling Grid search')
-        best_grid_1=self.grid_search(rf_randomcv.best_estimator_,X_train,y_train)
+        best_grid_1=self.grid_search(rf_randomcv.best_params_,X_train,y_train)
         print('Results after Grid search CV')
         self.metrics(self, best_grid_1, X_test, y_test)
 
