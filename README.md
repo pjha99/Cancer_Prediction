@@ -65,10 +65,12 @@ Field BareNuc is a categorical feature, we will be using one hot encoding to con
 
 1. Raw Data is being kept under the project repo with the name drug200.csv    
 2. Data processing/transformation scripts are coded under cancer_prediction.ipynb
+3. object oriented code is present in cancerprediction.py
 
 
 ## Featured Notebooks/Analysis/Deliverables :-
 - cancer_prediction.ipynb
+- cancerprediction.py
 
 
 ## Metrics Used to determine results :-
