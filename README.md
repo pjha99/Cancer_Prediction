@@ -40,6 +40,10 @@ In this Project, we will build and train a model using human cell records, and c
 Field BareNuc is a categorical feature, we will be using one hot encoding to convert it into the numerical Value.
 
 ## Exploratory Data Analysis
+- ### Correlation Matrix:
+![](Images/Capture_cancer.PNG)
+
+- ### Class Distribution
 
 ![](Images/Capture_cancer.PNG)
 
