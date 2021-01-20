@@ -69,11 +69,12 @@ In this Project, we will build and train a model using human cell records, and c
 ## Shape of Train and Test Data :-
    We performe the train test split of data set means a larger portion of data we keep as training dataset while a smaller portion of test dataset.
    - Train data set : 80%
-   - Test data set : 20% <br/>
+   - Test data set : 20% 
+   
    The reason we do train test split is because:
-     - To see if we are overfitting the model
-     - To see if we are undefitting the model
-     - To see if our model performs in a well behaved fashion on both train and test data.
+   - To see if we are overfitting the model
+   - To see if we are undefitting the model
+   - To see if our model performs in a well behaved fashion on both train and test data.
 
 - Train Data (546, 9) (546,)
 - Test Data (137, 9) (137,)
@@ -82,8 +83,9 @@ In this Project, we will build and train a model using human cell records, and c
    In an Ideal scenario a model shouldnot be trained on the default parameter, meaning the parameters of the ML algorithm has to be trained,
    The reason for hyper parameter tuning is to obtained the best parameters and use that on the ML Algorithm to obtained the best results.
    We have various hyper parameter tuning techniques, but in this project I have used two widely used tuning techniques.
-    - Randomized Search CV
-    - Grid Search CV
+   - Randomized Search CV
+   - Grid Search CV
+   
    The Random Forset algorithm first trains itself using Randomized search CV, as the name suggests it randomly tries to search in the gievn search space
    and then spits the best params out of those random searched space.
    Then we apply the Grid Search CV on the trained params of the Randomized search by taking that as baseline, Grid search looks into each grid one by one and then
