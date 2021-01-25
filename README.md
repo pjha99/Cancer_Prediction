@@ -52,8 +52,7 @@ The End goal is to classify whether the Human cells are benign in nature or they
 2. Data processing/transformation scripts are coded under cancer_prediction.ipynb
 3. object oriented code is present in cancerprediction.py
 
-## Feature Engineering:
-   Field BareNuc is a categorical feature, we will be using one hot encoding to convert it into the numerical Value.
+### Feature Engineering:
    
 ## Exploratory Data Analysis :-
 - ### Correlation Matrix: 
@@ -101,7 +100,4 @@ The End goal is to classify whether the Human cells are benign in nature or they
 
 
 ## Metrics Used to determine results :-
-1. Accuracy <br/>
-2. Precision <br/>
-3. Recall <br/>
-4. F1-Score <br/>
+1.) Recall Score
