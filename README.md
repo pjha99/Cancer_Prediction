@@ -101,3 +101,8 @@ The End goal is to classify whether the Human cells are benign in nature or they
 
 ## Metrics Used to determine results :-
 1.) Recall Score
+
+| Classifier | Recall Score  |
+|------------|---------------|
+|Benign(2)   | 0.96          |
+|Malignant(4)| 1.00          |
