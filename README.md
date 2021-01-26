@@ -2,17 +2,12 @@
 Cancer Detetction Project: 
 
 ### Project Intro/Objective :-
-Cancer is the name given to a collection of related diseases. In all types of cancer, some of the body’s cells begin to divide without stopping and spread into surrounding tissues.
-
 Cancer can start almost anywhere in the human body, which is made up of trillions of cells. Normally, human cells grow and divide to form new cells as the body needs them. When cells grow old or become damaged, they die, and new cells take their place.
 
 When cancer develops, however, this orderly process breaks down. As cells become more and more abnormal, old or damaged cells survive when they should die, and new cells form when they are not needed. These extra cells can divide without stopping and may form growths called tumors.
 
-According to Survey there are 18 million cancer cases round the globe anually and around 8.8 million death per year.
-
-In this Project, we will build and train a model using human cell records, and classify cells to whether the samples are benign or malignant. 
-The End goal is to classify whether the Human cells are benign in nature or they are malignant in nature, to detect this in early stage can save life of thousand of people.
-
+According to Survey, there are 18 million cancer cases around the globe annually and around 8.8 million death per year.
+In this project, we will build and train a model using human cell records, and classify cells to whether the samples are benign or malignant. The End goal is to classify whether the Human cells are benign in nature or they are malignant in nature, to detect this in the early stage can save the lives of thousands of people.
 
 ### Algorithms Used :-
 1. Random forest
@@ -50,20 +45,19 @@ The End goal is to classify whether the Human cells are benign in nature or they
 
 1. Raw Data is being kept under the project repo with the name drug200.csv    
 2. Data processing/transformation scripts are coded under cancer_prediction.ipynb
-3. object oriented code is present in cancerprediction.py
+3. OOPS code is present in cancerprediction.py
 
 ### Feature Engineering:
    
 ## Exploratory Data Analysis :-
 - ### Correlation Matrix: 
-     Here we are trying to see how our data are corelated to each other, if there exists high or low 
-     correlation between the independent variables.
+    Here we are trying to see how our data are correlated to each other if there exists high or low correlation between the independent variables.
       
 ![](Images/Capture.PNG)
 
 - ### Class Distribution : 
-     Here we are trying to see how the benign vs malignant tumors are distributed , 
-      we try to see if there is a case of imbalanced dataset.
+     Here we are trying to see how the benign vs malignant tumors are distributed, 
+      we try to see if there is a case of the imbalanced dataset.
 
 ![](Images/Capture_cancer.PNG)
 
@@ -82,16 +76,16 @@ The End goal is to classify whether the Human cells are benign in nature or they
 - Test Data (137, 9) (137,)
 
 ## Hyperparameter Tuning :-
-   In an Ideal scenario a model shouldnot be trained on the default parameter, meaning the parameters of the ML algorithm has to be trained,
-   The reason for hyper parameter tuning is to obtained the best parameters and use that on the ML Algorithm to obtained the best results.
-   We have various hyper parameter tuning techniques, but in this project I have used two widely used tuning techniques.
-   - Randomized Search CV
-   - Grid Search CV
-   
-   The Random Forset algorithm first trains itself using Randomized search CV, as the name suggests it randomly tries to search in the gievn search space
-   and then spits the best params out of those random searched space.
-   Then we apply the Grid Search CV on the trained params of the Randomized search by taking that as baseline, Grid search looks into each grid one by one and then
-   gives the best parameter for the Random Forest algorithm.
+   In an Ideal scenario, a model should not be trained on the default parameter, meaning the parameters of the ML algorithm has to be trained,
+   The reason for hyperparameter tuning is to obtain the best parameters and use that on the ML Algorithm to obtain the best results.
+   We have various hyperparameter tuning techniques, but in this project, I have used two widely used tuning techniques.
+   - Randomized Search CV
+   - Grid Search CV
+   
+   The Random Forest algorithm first trains itself using Randomized search CV, as the name suggests it randomly tries to search in the given search space
+   and then spits the best params out of those random searched space.
+   Then we apply the Grid Search CV on the trained params of the Randomized search by taking that as the baseline, Grid search looks into each grid one by one and then
+   gives the best parameter for the Random Forest algorithm.
 
 
 ## Featured Notebooks/Analysis/Deliverables :-
