@@ -56,8 +56,8 @@ In this project, we will build and train a model using human cell records, and c
 ![](Images/Capture.PNG)
 
 - ### Class Distribution : 
-     Here we are trying to see how the benign vs malignant tumors are distributed, 
-      we try to see if there is a case of the imbalanced dataset.
+     Here we are trying to see how the benign vs malignant tumors are distributed, we try to see if there is a case of the imbalanced dataset.
+     The ratio of Benign : Malignant cell is 2:1 , hence we dont land in the area of imbalanced data sets here.
 
 ![](Images/Capture_cancer.PNG)
 
